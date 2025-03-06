@@ -1,0 +1,12 @@
+@use "../utils/variables";
+
+body {
+  background-color: variables.$light-pink;
+  color: variables.$dark-purple;
+  font-family: variables.$font;
+  min-height: 100svh;
+}
+
+main {
+  position: relative;
+}
