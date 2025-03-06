@@ -45,7 +45,7 @@ Users should be able to:
 ### What I learned
 
 ```html
-<img src="./assets/images/icon-plus.svg" alt="" role="img" aria-hidden="true" class="accordion-icon" />
+<img src="./assets/images/icon-plus.svg" alt="" role="presentation" aria-hidden="true" class="accordion-icon" />
 ```
 
 ## Author
