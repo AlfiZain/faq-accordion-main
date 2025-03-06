@@ -16,18 +16,18 @@ const accordionToggle = () => {
       accordionItems.forEach((item) => {
         item.querySelector(".accordion-header").setAttribute("aria-expanded", false);
         item.querySelector(".accordion-content").classList.remove("open");
-        item.querySelector(".accordion-icon").setAttribute("src", "../assets/images/icon-plus.svg");
+        item.querySelector(".accordion-icon").setAttribute("src", "./assets/images/icon-plus.svg");
       });
 
       //   accordion toggler logic
       if (!isOpen) {
         button.setAttribute("aria-expanded", true);
         content.classList.add("open");
-        icon.setAttribute("src", "../assets/images/icon-minus.svg");
+        icon.setAttribute("src", "./assets/images/icon-minus.svg");
       } else {
         button.setAttribute("aria-expanded", false);
         content.classList.remove("open");
-        icon.setAttribute("src", "../assets/images/icon-plus.svg");
+        icon.setAttribute("src", "./assets/images/icon-plus.svg");
       }
     });
   });
